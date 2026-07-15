@@ -1,0 +1,18 @@
+---
+Name: msocf.dll
+Author: Adam Mooney - HuntressLabs
+Created: 2026-07-14
+Vendor: Microsoft
+ExpectedLocations:
+  - '%PROGRAMFILES%\Microsoft Office\Office14\'
+  - '%PROGRAMFILES(X86)%\Microsoft Office\Office14\'
+VulnerableExecutables:
+  - Path: '%PROGRAMFILES%\Microsoft Office\Office14\INFOPATH.EXE'
+    Type: Sideloading
+    SHA256:
+      - '343883df0625d9ab21c3de31c2c5fbcc24c6d0c151d2dcacd2ba1f04e6a40ad6'
+Resources:
+  - https://www.virustotal.com/gui/file/908b5342a8f643ede2af3b1d5f0bbab4182d3cbaa7b28431373d0c0e0fb1bb6b/details
+Acknowledgements:
+  - Name: Adam Mooney
+    Company: Huntress
